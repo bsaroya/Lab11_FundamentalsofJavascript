@@ -33,3 +33,9 @@ toString() {
 }
 
 }
+// Store class to manage a collection of products
+class Store {
+  constructor() {
+    this.inventory = []; // Holds all products 
+  }
+}
