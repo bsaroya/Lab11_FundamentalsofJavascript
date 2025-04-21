@@ -9,6 +9,10 @@ class Product {
 getTotalValue() {
   return this.price * this.quantity;
 }
+// Returns a formatted string describing the product
+toString() {
+  return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
+}
 
 }
 
