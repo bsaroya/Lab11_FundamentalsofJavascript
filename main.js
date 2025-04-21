@@ -52,3 +52,5 @@ findProductByName(name) {
 }
 
 }
+// Create a new store
+const myStore = new Store();
