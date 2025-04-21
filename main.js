@@ -21,4 +21,10 @@ static applyDiscount(products, discount) {
 }
 
 }
-
+// PerishableProduct class extends Product and adds an expiration date
+class PerishableProduct extends Product {
+  constructor(name, price, quantity, expirationDate) {
+    super(name, price, quantity);        // Call the parent class constructor
+    this.expirationDate = expirationDate; // Add expiration info
+  }
+}
