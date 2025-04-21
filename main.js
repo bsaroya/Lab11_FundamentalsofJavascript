@@ -82,3 +82,6 @@ const foundProduct = myStore.findProductByName(searchProduct);
 if (foundProduct) {
   console.log(`\nFound product: ${foundProduct.toString()}`);
 }
+else {
+  console.log(`\nProduct "${searchProduct}" not found.`);
+}
