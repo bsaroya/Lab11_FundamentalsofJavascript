@@ -66,3 +66,6 @@ myStore.addProduct(product2);
 myStore.addProduct(product3);
 myStore.addProduct(perishable1);
 myStore.addProduct(perishable2);
+
+// Display inventory value before applying discount
+console.log("Inventory Value BEFORE Discount: $" + myStore.getInventoryValue().toFixed(2));
