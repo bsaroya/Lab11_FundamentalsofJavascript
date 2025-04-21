@@ -60,3 +60,9 @@ const product2 = new Product("Shampoo", 6.99, 20);
 const product3 = new Product("Notebook", 3.5, 30);
 const perishable1 = new PerishableProduct("Milk", 1.5, 10, "2025-01-10");
 const perishable2 = new PerishableProduct("Cheese", 5.0, 5, "2024-12-20");
+// Add all products to the store
+myStore.addProduct(product1);
+myStore.addProduct(product2);
+myStore.addProduct(product3);
+myStore.addProduct(perishable1);
+myStore.addProduct(perishable2);
