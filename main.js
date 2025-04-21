@@ -54,3 +54,7 @@ findProductByName(name) {
 }
 // Create a new store
 const myStore = new Store();
+// Create sample products (3 regular, 2 perishable)
+const product1 = new Product("Apple", 2.5, 50);
+const product2 = new Product("Shampoo", 6.99, 20);
+const product3 = new Product("Notebook", 3.5, 30);
