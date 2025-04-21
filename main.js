@@ -5,4 +5,10 @@ class Product {
     this.price = price;       // Price per unit
     this.quantity = quantity; // Units available in stock
   }
+  // Calculates total value of the product in stock
+getTotalValue() {
+  return this.price * this.quantity;
 }
+
+}
+
