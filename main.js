@@ -58,3 +58,5 @@ const myStore = new Store();
 const product1 = new Product("Apple", 2.5, 50);
 const product2 = new Product("Shampoo", 6.99, 20);
 const product3 = new Product("Notebook", 3.5, 30);
+const perishable1 = new PerishableProduct("Milk", 1.5, 10, "2025-01-10");
+const perishable2 = new PerishableProduct("Cheese", 5.0, 5, "2024-12-20");
