@@ -78,3 +78,7 @@ console.log("Inventory Value AFTER 15% Discount: $" + myStore.getInventoryValue(
 // Search for a specific product by name
 const searchProduct = "Milk";
 const foundProduct = myStore.findProductByName(searchProduct);
+// Show product details if found
+if (foundProduct) {
+  console.log(`\nFound product: ${foundProduct.toString()}`);
+}
