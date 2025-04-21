@@ -27,4 +27,9 @@ class PerishableProduct extends Product {
     super(name, price, quantity);        // Call the parent class constructor
     this.expirationDate = expirationDate; // Add expiration info
   }
+  // Extend the string output to include the expiration date
+toString() {
+  return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
+}
+
 }
